@@ -1,0 +1,75 @@
+#headofpage{
+    display: flex;
+  justify-content: center;
+  text-align: center;
+ background-color: #363535;
+ border: #cfcfcf;
+ content:url(images/TacosAtyoac.png);
+ 
+}
+
+ul {
+    color:#363535;
+    margin-left: 25%;
+    text-decoration: none;
+    position: absolute;
+    height: 50px;
+    text-align: center;
+    
+  }
+  li{
+    display: inline;
+    padding-top: 20px;
+    cursor: pointer;
+    padding-right: 30px;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+a {
+    text-decoration: none;
+    
+    color: black;
+    
+  }
+  a:hover,
+  a:active {
+    
+    color: rgb(255, 255, 255);
+  }
+  body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+      margin: 0;
+      background-color: #363535;
+  }
+  
+#titulo{
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    color: rgb(209, 89, 89);
+    
+}
+#content{
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    border: solid 10px black;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    margin-bottom: 0;
+}
+span { display: flex; 
+    justify-content: center;
+
+}
+#Menu{
+    display: block;
+    margin-top: 100px;
+}
+.item{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
