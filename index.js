@@ -1,0 +1,19 @@
+$( document ).ready(function() {
+    $("#About").hide();
+        $("#Contact").hide();
+    $("#Abo").click(function(){
+        $("#About").show();
+        $("#Menu").hide();
+        $("#Contact").hide();
+    });
+    $("#Con").click(function(){
+        $("#Contact").show();
+        $("#Menu").hide();
+        $("#About").hide();
+    });
+    $("#Men").click(function(){
+        $("#Contact").hide();
+        $("#Menu").show();
+        $("#About").hide();
+    });
+});
